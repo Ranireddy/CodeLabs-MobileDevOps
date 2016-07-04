@@ -158,7 +158,7 @@ namespace MyHealth.Client.Core.ViewModels
             if (appointments.Count >= 2)
             {
                 SecondAppointment = appointments.ElementAt(1);
-                //Appointments = new ObservableCollection<Appointment>(appointments.Skip(2));
+                Appointments = new ObservableCollection<Appointment>(appointments.Skip(2));
             }
         }
 
